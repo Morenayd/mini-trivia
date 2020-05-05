@@ -1,0 +1,194 @@
+body {
+    text-align: center;
+}
+
+#intro-div {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 30%;
+    text-align: center;
+}
+
+#intro {
+    visibility: visible;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+}
+
+#start {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    background-color: #559FF7;
+    border: 1px solid #559FF7;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#start:hover {
+    background-color: #4380c9;
+    transition-duration: .3s;
+}
+
+@media (min-width: 475px) {
+    #start {
+        width: 250px;
+    }
+    #restart {
+        width: 250px;
+    }
+}
+
+#number, #score {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    border: 2px solid #559FF7;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#question {
+    visibility: hidden;
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+}
+
+#option-div {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(85,159,247,.07);
+    text-align: left;
+}
+
+.options:hover {
+    background-color: rgba(85, 159, 247, 0.25);
+    transition-duration: .3s;
+}
+
+#wrapper {
+    width: 60%;
+    margin: auto;
+    padding: 0px;
+    margin-top: 10%;
+}
+
+#stats {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#button, #finish {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    visibility: hidden;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #559FF7;
+    border: 1px solid #559FF7;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#finish {
+    position: absolute;
+    width: 60%;
+    left: 20%
+}
+
+#button:hover {
+    background-color: #4380c9;
+    transition-duration: .3s;
+}
+
+#finish:hover {
+    background-color: #4380c9;
+    transition-duration: .3s;
+}
+
+#post-quiz {
+    position: absolute;
+    width: 60%;
+    top: 20%;
+    left: 20%;   
+}
+
+#final-text {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: rgba(0,0,0,.8)
+}
+
+#final-score {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(0,0,0,.8)
+}
+
+#restart {
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    visibility: hidden;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #559FF7;
+    border: 1px solid #559FF7;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #4380c9;
+    transition-duration: .3s;
+}
+
+@media (max-width: 475px) {
+    #wrapper {
+        width: 90%;
+    }
+
+    #finish {
+        width: 90%;
+        left: 6%;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 768px) {
+    #wrapper {
+        width: 80%;
+    }
+
+    #finish {
+        width: 80%;
+        left: 10%;
+    }
+}

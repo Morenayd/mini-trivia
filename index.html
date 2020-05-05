@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="wrapper">
+        <div id="intro-div">
+            <p id="intro">Welcome to my mini trivia quiz.</p>
+            <button id="start" style="visibility: visible;">Start!</button>
+        </div>
+
+        <div id="stats">
+            <p id="number">1/5</p>
+            <p id="score">Score: 0/5</p>
+        </div>
+
+        <p id="question"></p>
+
+        <div id="option-div" >
+            <button id="option1" class="options"></button>
+            <button id="option2" class="options"></button>
+            <button id="option3" class="options"></button>
+            <button id="option4" class="options"></button>
+        </div>
+
+        <button id="button" style="visibility: hidden;">Next</button>
+        <button id="finish" style="visibility: hidden;">Finish</button>
+    </section>
+
+    <section id="post-quiz" style="visibility: hidden;">
+        <p id="final-text">Well done! Here's your score</p>
+        <p id="final-score"></p>
+        <button id="restart">Restart?</button>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</hmtl>
