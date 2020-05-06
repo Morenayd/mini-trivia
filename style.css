@@ -180,6 +180,10 @@ body {
         width: 90%;
         left: 6%;
     }
+
+    #restart {
+        width: 70%;
+    }
 }
 
 @media (min-width: 476px) and (max-width: 768px) {

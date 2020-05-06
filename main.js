@@ -25,58 +25,58 @@ var questionCounter = 1;
 
 var questions = [
     {
-        question: "Question 1",
+        question: "'Love is not love which alters when it alteration finds'\n\nWho said this?",
         options:
         {
-            option1: "This is option 1 of 1",
-            option2: "This is option 2 of 1",
-            option3: "This is option 3 of 1",
-            option4: "This is option 4 of 1",
-            correctAns: "This is option 2 of 1"
+            option1: "Bro Winston",
+            option2: "Master William",
+            option3: "Comrade Aristotle",
+            option4: "Mother Theresa",
+            correctAns: "Master William"
         }
     },
     {
-        question: "Question 2",
+        question: "What do we say to the god of death?",
         options:
         {
-            option1: "This is option 1 of 2",
-            option2: "This is option 2 of 2",
-            option3: "This is option 3 of 2",
-            option4: "This is option 4 of 2",
-            correctAns: "This is option 4 of 2"
+            option1: "Leave me alone!",
+            option2: "Take Uncle Bubu, instead",
+            option3: "Not today. Haba!!!",
+            option4: "Touch me and I'll [insert preferred threat here]!!",
+            correctAns: "Not today. Haba!!!"
         }
     },
     {
-        question: "Question 3",
+        question: "What is the term for a 360-degree turn on one foot in ballet?",
         options:
         {
-            option1: "This is option 1 of 3",
-            option2: "This is option 2 of 3",
-            option3: "This is option 3 of 3",
-            option4: "This is option 4 of 3",
-            correctAns: "This is option 4 of 3"
+            option1: "It's a Pirauex",
+            option2: "It's a Pirouette",
+            option3: "It's a One-leg rotation. Duh!!",
+            option4: "It's a Ballancoire",
+            correctAns: "It's a Pirouette"
         }
     },
     {
-        question: "Question 4",
+        question: "Just what might the economy of Nigeria be running on?",
         options:
         {
-            option1: "This is option 1 of 4",
-            option2: "This is option 2 of 4",
-            option3: "This is option 3 of 4",
-            option4: "This is option 4 of 4",
-            correctAns: "This is option 1 of 4"
+            option1: "Hoiel",
+            option2: "Vibes",
+            option3: "Inshallah",
+            option4: "Options B and C. This is the mega cruise!!",
+            correctAns: "Options B and C. This is the mega cruise!!"
         }
     },
     {
-        question: "Question 5",
+        question: "Who's topping the livescores in Nigeria?",
         options:
         {
-            option1: "This is option 1 of 5",
-            option2: "This is option 2 of 5",
-            option3: "This is option 3 of 5",
-            option4: "This is option 4 of 5",
-            correctAns: "This is option 2 of 5"
+            option1: "Toyosi's people",
+            option2: "Chidi's people",
+            option3: "'dem Aboki people",
+            option4: "Ibong's people",
+            correctAns: "'dem Aboki people"
         }
     }
 ];
